@@ -1,45 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Sobre nosotros</title>
-</head>
-<body>
-    <div class="container">
-    <header class="header">
-        <a href="index.html" class="logo">Vegan delights</a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-            <nav class="nav-li">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="recetas.html">Recetas</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-                
-        </nav>
-       </header>
+  <body>
 
-    <section class="section-nosotros">
-        <h2 class="titulo-nosotros" id="nosotros">Sobre nosotros...</h2>
-        <p class="texto-nosotros">Somos una empresa dedicada a la elaboracion de produtos de calidad 100% veganos. Apasionados por nuestro trabajo brindamos una experiencia unica. Tartas, tortas y mas que despiertas los sentidos y contribuyen al bienestar.</p>
-        
+   <header>
+    <nav class="navbar navbar-expand-lg color-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand color-texto" href="index.html">Vegan delights</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link" href="productos.html">Productos</a>
+              <a class="nav-link" href="recetas.html">Recetas</a>
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+   </header>
+
+    <section>
+        <h1>Sobre nosotros</h1>
+        <p>Somos una empresa dedicada a la elaboracion de produtos de calidad 100% veganos. Apasionados por nuestro trabajo brindamos una experiencia unica. Tartas, tortas y mas que despiertas los sentidos y contribuyen al bienestar.</p>
     </section>
 
-    <footer class="footer">
-        <a href="https://www.instagram.com/" target="_blank"> <img src="Sobre-nosotros/instagram.png" alt="instagram" class="redes"></a>
-        <a href="https://www.facebook.com/" target="_blank"> <img src="Sobre-nosotros/facebook (1).png" alt="Facebook" class="redes"></a>
-        <a href="https://web.whatsapp.com/" target="_blank"> <img src="Sobre-nosotros/wsp.png" alt="whatsapp" class="redes"></a>
-        <p class="texto-final">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </footer>
-    </div>
+    <section class="carousel">
+        <div id="carouselExampleControls" class="carousel slide w-50 " data-bs-ride="carousel">
+            <div class="carousel-inner w-">
+              <div class="carousel-item active">
+                <img src="Multimedia/Torta 8.jpg" class="d-block w-100" alt="postre-vegan">
+              </div>
+              <div class="carousel-item">
+                <img src="Multimedia/Torta 6.jpg" class="d-block w-100" alt="torta-vegan">
+              </div>
+              <div class="carousel-item">
+                <img src="Multimedia/Tienda.jpg" class="d-block w-100" alt="torta-vegan-dos">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
 
     
+   <footer>
+    <nav class="navbar navbar-expand-lg color-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand color-texto" href="index.html">Vegan delights</a>
+      </div>
+    </nav>
+   </footer>
+    
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
